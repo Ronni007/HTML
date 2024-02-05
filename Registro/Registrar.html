@@ -14,44 +14,46 @@
         <li>
           <h1>Registrarte:</h1>
           <form action="Registrado.html" method="get">
-            <input type="text" required="Ronald" />
-            <label>Nombre de usuario</label>
-            <br />
-            <br />
-            <input type="password" required>
-            <label>Contraseña</label>
-            <br />
-            <br />
-            <input type="mail" required>
-            <label>Correo electrónico</label>
-            <br />
-            <br />
-            <input type="text" required>
-            <label>Ciudad</label>
-            <br />
-            <br />
-            <input type="checkbox" required>
-            <label> Mujer</label>
-            <input type="checkbox" required>
-            <label> Hombre</label>
-            <input type="checkbox" required>
-            <label> Otro</label>
-            <br />
-            <br />
-            <input type="num" required>
-            <label>Numero celular</label>
-            <br />
-            <br />
-            <button type="submit">Registrarse</button>
-            <br />
-          </form>
-          <form action="index.html" method="get">
-            <button type="submit"> Inicio </button>
-          </form>
+        <li>
+          Nombre: <br> <input type=" text" placeholder="Nombre" required />
+        </li>
+        <li>
+          Apellidos: <br> <input type=" text" placeholder="Apellido" required />
+        </li>
+        <li>
+          Celular: <br> <input type="tel" placeholder="+57 123456789" required>
+        </li>
+        <li>
+          Correo: <br> <input type="email" placeholder="ejemplo@ejemplo.com" required>
+        </li>
+        <li>
+          Genero: <br>
+          <input type="radio" name="Sexo" value="M" required>M
+          <input type="radio" name="Sexo" value="F" required>F
+        </li>
+        <li>
+          Seleccione ciudad:
+          <select name="Bucaramanga">
+            <option value="Bucaramanga" selected>Bucaramanga</option>
+            <option value="Piedecuesta" selected>Piedecuesta</option>
+            <option value="Giron" selected>Giron</option>
+            <option value="Floridablanca" selected>Floridablanca</option>
+          </select>
+        </li>
+        <li>
+          Usuario: <br> <input type="text" minlength="8" required>
+        </li>
+        <li>
+          Contraseña: <br> <input type="password" minlength="8" required>
+        </li>
+        <br><button type=" submit">Registrarse</button>
         </li>
       </ul>
+      </form>
+      <br> <a href="../index.html"> <button> Volver</button></a>
     </nav>
   </header>
 </body>
+
 
 </html>
