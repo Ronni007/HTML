@@ -50,6 +50,28 @@
       <ul>
         <span style="color: blue;">Bucaramanga</span>
       </ul>
+      <div>
+        <form action="contactado.html" method="get">
+          <br> Nombre: <input type="text" placeholder="Nombre" required>
+          <br> Apellidos: <input type="text" placeholder="Apellidos" required>
+          <br> Telefono: <input type="text" placeholder="Celular" required>
+          <br> Correo: <input type="text" placeholder="Celular" required>
+          <div>
+            <label for="Ciudad"> Ciudad</label>
+            <select name="Ciudad" id="Ciudad">
+              <option value="" selected> Seleccione...</option>
+              <option value="Bucaramanga"> Bucaramanga</option>
+              <option value="Giron"> Giron</option>
+              <option value="Floridablanca"> Floridablanca</option>
+            </select>
+          </div>
+          <br> <label for="Mensaje"> Mensaje </label>
+          <div>
+            <textarea name="Mensaje" id="Mensaje" cols="50" rows="10" required> </textarea>
+            <br> <button type="submit"> Enviar</button>
+        </form>
+      </div>
+      </div>
       <a href="../index.html">
         <br> <button type="submit"> Volver</button>
       </a>
