@@ -1,0 +1,17 @@
+body {
+  background-color: blueviolet;
+  color: azure;
+  font-size: 14px;
+}
+li {
+  color: blueviolet;
+}
+
+nav {
+  color: brown;
+}
+
+nav ul li a:hover {
+  background: #c2c2c2;
+  width: 200px;
+}
